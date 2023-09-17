@@ -1,0 +1,1 @@
+import { ErrorType } from "./error";

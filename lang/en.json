@@ -1,0 +1,28 @@
+{
+  "login": "Login",
+  "cancel": "Cancel",
+  "yes": "Yes",
+  "save": "Save",
+  "goToConfig": "Go to config this app",
+  "language": "Language",
+  "selectLanguage": "Select language",
+  "theme": "Theme",
+  "changePassword": "Change Password",
+  "signOut": "Sign Out",
+  "warning": "Warning",
+  "select": "Select",
+  "menu": "Menu",
+  "back": "Back",
+  "light": "Light",
+  "dark": "Dark",
+  "en": "English",
+  "vi": "Vietnamese",
+  "addNew": "Add New",
+  "search": "Search",
+  "message": {
+    "confirmLogOut": "Do you want to sign out of the app ?"
+  },
+  "homePage": {
+    "title": "Home Page"
+  }
+}

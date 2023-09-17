@@ -1,0 +1,66 @@
+$padding-normal: 8px;
+$width-logo-header: 240px;
+$height-app-header: 60px;
+$height-sub-header: 30px;
+$border-color: #DCDFE6;
+$font-size-normal: 14px;
+$height-header: $height-sub-header + $height-app-header + 10px;
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: $font-size-normal;
+}
+
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  &:hover {
+    display: block;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  &:hover {
+    background: #888;
+  }
+}
